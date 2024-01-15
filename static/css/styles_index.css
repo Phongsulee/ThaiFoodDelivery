@@ -1,0 +1,37 @@
+<style>
+      h1{
+        color: aqua; 
+        font-size: 20px;
+      }
+
+      a{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0f0f0f;
+      }
+
+      body{
+        background-color: rgb(53, 53, 53);
+      }
+
+      .navbar{
+        background-color: rgb(193, 202, 154); 
+      }
+
+      .navbar span{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'comic sans MS', sans-serif;
+        text-shadow: 3px 4px 5px #666;
+      }
+
+      footer{
+        background-color: rgb(193, 202, 154); 
+      }
+
+      #footer-font{
+        font-size: 15px;
+        color: #0f0f0f;
+        font-weight: bold;
+      }
+</style>
