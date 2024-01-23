@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="static/css/styles_index.css">
 
 </head>
-
 <body>
   <div class="container-fluid">
     <!------------------------ navbar ------------------------->
@@ -22,13 +21,19 @@
       <ul class="nav justify-content-end">
 
         <li class="nav-item">
-          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link active" href="base.html">หน้าหลัก</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#home">Manu</a>
+          <a class="nav-link" href="manu.html">เมนู</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#home">Order</a>
+          <div class="card card-shopping text-center ml-3">
+            <button id="card-shopping" type="button" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"></path>
+              </svg>
+            </button>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link"></a>
@@ -37,29 +42,24 @@
           <a class="nav-link"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#home">About</a>
+          <a class="nav-link" href="#home">เกี่ยวกับเรา</a>
         </li>
       </ul>
 
     </nav>
   </div>
     <!---------------------- เนื้อหาหลัก ------------------------->
-    <main>
-      <br><br><br><br>
-      <div class="container-fluid">
-        <div class="card mb-3">
-          <img src="static/image/a78a2e75-3a02-4fb6-80a2-e45dcdf5e073.jpg" 
-            height="450" width="200" class="card-img-top" alt="...">
-        </div>
-      </div>
-    </main>
+  <main>
+  <br><br><br><br>
+    
+  </main>
   <!----------------------- footer -------------------------->
-  <footer class="text-light text-center py-2">
-    <div class="container text-center">
+  <footer class="p-2">
+    <div class="text-center">
       <p id="footer-font">2024 ThaiFoodDelivery (demo)</p>
     </div>
   </footer>
-  <!------------------------------------------------------------>
+  <!--------------------------------------------------------->
   <script src="static/bootstrap/js/jquery.min.js"></script>
   <script src="static/bootstrap/js/popper.min.js"></script> <!-- ไฟล์ static เรียกใช้งานไฟล์ bootstarp4_popper.js -->
   <script src="bootstrap/js/bootstrap.min.js"></script> <!-- ไฟล์ static เรียกใช้งานไฟล์ bootstarp4_bootstrap.min.js -->
