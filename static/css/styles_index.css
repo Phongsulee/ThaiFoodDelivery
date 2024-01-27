@@ -50,6 +50,19 @@ footer {
   background-color: #ffc000;
 }
 
+#brow {
+  margin: 0;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+img.fixed-size {
+  width: 250px;
+  /* กำหนดความกว้าง */
+  height: 250px;
+  /* กำหนดความสูง */
+}
+
 /*------------------------------------*/
 .all-browsers {
   margin: 0;
