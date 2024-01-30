@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Alert Example</title>
+    <script>
+        function showAlert() {
+            alert("ขออภัยสินค้าหมด");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="showAlert()">Button 1</button>
+    <button onclick="showAlert()">Button 2</button>
+    <button onclick="showAlert()">Button 3</button>
+</body>
+</html>

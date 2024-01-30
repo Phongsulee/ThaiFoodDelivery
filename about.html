@@ -11,11 +11,17 @@
   <!-- เชื่อมต่อไฟล์ CSS -->
   <link rel="stylesheet" href="static/css/styles_index.css">
 
+  <!-- เชื่อมต่อไฟล์ Java Script -->
+  <script src="static/bootstrap/js/jquery.min.js"></script>
+  <script src="static/bootstrap/js/popper.min.js"></script> <!-- ไฟล์ static เรียกใช้งานไฟล์ bootstarp4_popper.js -->
+  <script src="bootstrap/js/bootstrap.min.js"></script> <!-- ไฟล์ static เรียกใช้งานไฟล์ bootstarp4_bootstrap.min.js -->
+  <script src="static/js/script.js"></script>
+
 </head>
 
 <body>
   <div class="container-fluid">
-<!------------------------ navbar ------------------------->
+    <!------------------------ navbar ------------------------->
     <nav class="navbar navbar-light fixed-top">
       <span class="navbar-brand mb-0 h1">ThaiFoodDelivery</span>
 
@@ -49,26 +55,24 @@
           <a class="nav-link" href="about.html">เกี่ยวกับเรา</a>
         </li>
       </ul>
-
     </nav>
   </div>
-<!------------------------ END navbar ---------------------->
-<!---------------------- เนื้อหาหลัก ------------------------->
-<main>
+  <!----------------------- END navbar ---------------------->
+  <!--------------------------------------------------------->
+  <!---------------------- เนื้อหาหลัก ------------------------->
+  <main>
     <div class="container">
     </div>
-</main>
- <!----------------------- footer -------------------------->
- <footer class="p-2">
+  </main>
+  <!-------------------- END เนื้อหาหลัก ------------------------>
+  <!--------------------------------------------------------->
+  <!----------------------- footer -------------------------->
+  <footer class="p-2">
     <div class="text-center">
       <p id="footer-font">2024 ThaiFoodDelivery (demo)</p>
     </div>
   </footer>
-  <!--------------------------------------------------------->
-  <script src="static/bootstrap/js/jquery.min.js"></script>
-  <script src="static/bootstrap/js/popper.min.js"></script> <!-- ไฟล์ static เรียกใช้งานไฟล์ bootstarp4_popper.js -->
-  <script src="bootstrap/js/bootstrap.min.js"></script> <!-- ไฟล์ static เรียกใช้งานไฟล์ bootstarp4_bootstrap.min.js -->
-  <script src="static/js/script.js"></script>
+  <!--------------------- END footer ------------------------>
 </body>
 
 </html>
