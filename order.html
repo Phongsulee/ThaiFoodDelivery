@@ -61,9 +61,44 @@
   <!----------------------- END navbar ---------------------->
   <!--------------------------------------------------------->
   <!---------------------- เนื้อหาหลัก ------------------------->
-  <main>
-    <div class="container">
-    </div>
+  <main><br><br><br><br><br>
+    <div class="container"><!-- class container-1 -->
+      <p id="roundCorners-2">รายการสั่งซื้อของฉัน</p>
+    </div><br><br><br><!-- END class container-1 -->
+    <!--------------------------------------------------------->
+    <div class="container"><!-- class container-2 -->
+      <div class="row"><!-- class row -->
+        <div class="col-md-8"><!-- row-ซ้าย -->
+          <div class="card">
+            <div class="card-header">
+              <h2>สินค้าในรถเข็น</h2>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0" id="custom-card-body">
+                <p>ยังไม่มีสินค้าในรถเข็น</p>
+              </blockquote>
+            </div>
+          </div>
+        </div><!-- END row-ซ้าย -->
+        <!--------------------------------------------------------->
+        <div class="col-md-4"><!-- row-ขวา -->
+          <div class="card">
+            <div class="card-header">
+              <h2 id="h2-sum">สรุปรายการสั่งซื้อ</h2>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0" id="custom-card-body">
+                <p>ไม่มียอดสั่งซื้อ</p>
+              </blockquote>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="showAlert_2()" id="Button_SumCheck">ดำเนินการสั่งซื้อ</button>
+          </div>
+        </div><!-- END row-ขวา -->
+      </div><!-- END class row -->
+    </div><!-- END class container-2 -->
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
   </main>
   <!---------------------END เนื้อหาหลัก ------------------------>
   <!--------------------------------------------------------->

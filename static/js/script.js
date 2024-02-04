@@ -6,5 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 function showAlert() {
-    alert("ขออภัยสินค้าหมด");
+    alert("ขออภัย ยังไม่มีสินค้าให้บริการ");
+}
+
+function showAlert_2() {
+    alert("ขออภัย ไม่สามารถกดซื้อสินค้าได้ เนื่องจากไม่มีสินค้าในรถเข็น");
 }

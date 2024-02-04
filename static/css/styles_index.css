@@ -4,6 +4,17 @@ h1 {
   font-size: 30px;
 }
 
+h2 {
+  color: rgb(28, 28, 28);
+  font-size: 35px;
+}
+
+#h2-sum {
+  color: rgb(28, 28, 28);
+  font-size: 35px;
+  text-align: center;
+}
+
 a {
   font-size: 20px;
   font-weight: bold;
@@ -23,6 +34,13 @@ body {
   font-weight: bold;
   font-family: 'comic sans MS', sans-serif;
   text-shadow: 3px 4px 5px, 0px -1px 0px #666;
+}
+
+img.fixed-size {
+  width: 250px;
+  /* กำหนดความกว้าง */
+  height: 250px;
+  /* กำหนดความสูง */
 }
 
 footer {
@@ -50,20 +68,37 @@ footer {
   background-color: #ffc000;
 }
 
+#roundCorners-2 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: #1d4ce7;
+}
+
 #brow {
   margin: 0;
   padding: 5px;
   border-radius: 15px;
 }
 
-img.fixed-size {
-  width: 250px;
-  /* กำหนดความกว้าง */
-  height: 250px;
-  /* กำหนดความสูง */
+#custom-card-body {
+  font-size: 20px; /* ปรับขนาดของตัวอักษร */
+  padding: 60px; /* ปรับขนาดพื้นที่รอบด้านภายใน */
 }
 
-/*------------------------------------*/
+#Button_SumCheck {
+  background-color: #4CAF50;
+  border: none;
+}
+
+#p_about {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+/*------------------- shoping button -----------------*/
 .all-browsers {
   margin: 0;
   padding: 5px;
@@ -88,3 +123,4 @@ p {
 }
 
 </style>
+/*--------------- END shoping button -----------------*/
