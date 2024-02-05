@@ -43,6 +43,13 @@ img.fixed-size {
   /* กำหนดความสูง */
 }
 
+.full-height {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   background-color: rgb(193, 202, 154);
 }
